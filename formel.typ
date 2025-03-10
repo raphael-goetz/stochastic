@@ -18,3 +18,5 @@ Vertrau auf die Wahrscheinlichkeit: Auch kleine Chancen können große Erfolge b
 #include "chapters/conditional_probability_theory.typ"
 
 #include "chapters/describing_statistics.typ"
+
+#include "chapters/random_variable.typ"

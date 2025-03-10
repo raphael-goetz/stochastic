@@ -35,7 +35,7 @@ $ overline(x_"harm") = (1/n sum_(i=1)^n 1/x_i)^(-1) $
 
 == Absolute Mittlere Abweichung
 
-$ 1/n sum_(i=1)^n |x_i - overline(x) | $
+$ 1/n sum_(i=1)^n |x_i - overline(x)| $
 
 == Varianz (empirische Varianz) & Standardabweichung
 Varianz:
