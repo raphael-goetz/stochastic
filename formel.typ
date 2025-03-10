@@ -1,44 +1,20 @@
+#set page(numbering: "1")
+#set text(lang: "de")
+
 = Zusammenfassung Stochastik
 
-== Laplace-Experiment
-Ausgangsmenge $Omega$ ist unendlich & jedes Ergebnis ist gleich Wahrscheinlich. Wahrscheinlichkeit für ein Ergebnis $1/n$
+Motivationsspruch:
+Vertrau auf die Wahrscheinlichkeit: Auch kleine Chancen können große Erfolge bringen :=D
 
-$ P(A) = (|A|)/(|Omega|) = k/n = ("Anzahl der für" A "günstigen Fälle")/"Anzahl der möglichen Fälle" $
+#outline()
+#pagebreak()
 
-== Kombinatorik
+#include "chapters/important.typ"
 
-Dies ergibt vier verschiedene Fälle:
+#set heading(numbering: "1.")
 
-• Mit Zurücklegen, unter Berücksichtigung der Reihenfolge
+#include "chapters/elementary_probability_theory.typ"
 
-Sei $M = {1, 2, 3, ..., n}$ So ist der Grundraum $Omega = M^k$
+#include "chapters/conditional_probability_theory.typ"
 
-$ |Omega| = |M^k| = n^k$
-
-• Ohne Zurücklegen, unter Berücksichtigung der Reihenfolge
-$ |Omega| = n!/(n-k)! $
-• Mit Zurücklegen, ohne Berücksichtigung der Reihenfolge
-
-$ vec(n+k-1, k) $
-
-• Ohne Zurücklegen ohne Berücksichtigung der Reihenfolge
-$ |Omega| = vec(n, k) $
-
-*Binominalkoeffizient*
-
-$ n "über" k = vec(n, k) = n!/(k!(n-k)!) $
-
-*Potenzmenge*
-Sei $M = {1, 2}$
-
-Dann ist
-
-$ P(M) = {emptyset, {1}, {2}, {1, 2}} $
-
-Mächtigkeit einer Potenzmenge:
-
-$ |M| = n => |P(M)| = 2^n$
-
-Falls $M$ leer ist dann:
-
-$ |emptyset| = 0 "und" |P(M)| = |emptyset| = 1 = 2^0 $
+#include "chapters/describing_statistics.typ"
